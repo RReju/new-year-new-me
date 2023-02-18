@@ -76,7 +76,7 @@ body{
     margin: 0 250px;
     padding-left: 64px;
     padding-top: 59px;
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 54, 170)),url('../images/watch.png');
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 54, 170)),url('./images/watch.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover; 
