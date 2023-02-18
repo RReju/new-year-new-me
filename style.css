@@ -47,6 +47,7 @@ body{
 
 /* Main Section Style */
 
+/* Previous Years Failure Section  */
 .prev-yearSection{
     margin:130px 250px;
     padding: 0 250px;
@@ -58,7 +59,7 @@ body{
     color: chartreuse;
 }
 
-
+/* Plans Section */
 .plans-section{
     text-align: center;
     margin: 0 230px; 
@@ -68,4 +69,49 @@ body{
     margin-bottom: 130px;
     display: flex;
     justify-content: space-evenly;
+}
+
+/* Gradient Section Style */
+.gradient{
+    height: 300px;
+    margin: 0 250px;
+    padding-left: 64px;
+    padding-top: 59px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0, 54, 170)),url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover; 
+}
+.text-color{
+    color: white;
+}
+
+/* footer Section Style */
+footer{
+    margin-top: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 250px;
+}
+input{
+    height: 64px;
+    width: 325px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+}
+.sub-btn{
+    margin-top: 15px;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #005FAC;
+    color: white;
+}
+::placeholder{
+    color: white;
 }
